@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+
+
+   *{
+    font-family: 'Sedgwick Ave Display', cursive;
+   
+    
+    }
+
+hr{
+    color: #011c02;
+}
+
+.navbar{
+    z-index: 999;
+    
+}
+
+.navbar ul li {
+    padding: 0 30px 0 40px;
+    font-weight: lighter;
+    font-size: larger;
+
+}
+
+.phc{
+    min-width: 100%;
+height: 650px; 
+}
+
+
+nav{
+    background-color: rgb(10, 10, 10);
+   
+}
+
+
+/*btn carrousel*/
+
+  
+ 
+  
+  
+  
+  .main-btn {
+    background-color: #012702b4;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+  }
+  
+  .main-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #035706;
+  }
+  
+  .carousel-indicators .active {
+    background-color:#011c02;
+  }
+
+
+/*fim btn carrousel*/
+.rodapé {
+    color: #fff;
+    
+} 
+ .rdp{
+    padding: 50px;
+   text-align: center;
+ }
+
+ h1{
+    text-align: center;
+ }
+
+ p{
+    font-family: 'Sedgwick Ave Display', cursive;
+ }
+
+
+ .container{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+/* CSS produtos */
+.produtos {
+   
+    width: 940px;
+    margin: auto;
+    padding: auto;
+}
+.produtos li {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10% 25%;
+    text-align: center;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      #ffffff, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+
+}
+
+
+.imgprod{
+border-radius: 50%;
+}
+
+
+.produtos li:hover {
+    transition: 0.5s;
+  
+}
+.produtos li:hover h2 {
+    transition: 0.5s;
+    font-size: 30px;
+}
+.produtos li:hover .produtos-preco {
+    transition: 0.5s;
+    font-size: 25px;
+}
+.produtos li:active {
+    transition: 0s;
+    border-color:  #011c02;
+}
+.produtos h2 {
+    text-shadow: #000000;
+    font-size: 25px;
+   
+}
+.produtos-descricao {
+    text-align: center;
+}
+.produtos-preco {
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-align: center;
+    font-size: 22px;  
+    margin-top: 10px;
+}
+
+/*Profissionais*/
+.thumbnail {
+     width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+
+}
+
+
+
+
+
+.nomeimg{
+   
+display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10% 25%;
+    text-align: center;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      #ffffff, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+
+
+
+}
+
+/*FIM PROFISSIONAIS*/
+/* CSS contato */
+
+
+
+
+footer{
+    background-color: #011c02;
+}
+/* Media queries */
+@media screen and (max-width: 825px) {
+
+   
+   
+    /* Produtos */
+    .produtos {
+       width: auto;
+        text-align: center;
+    }
+    .produtos li {
+        display: inline-block;
+        width: 75%;
+        margin: 1rem 2rem;
+    }
+    .produtos-descricao {
+        font-size: 18px;
+    }
+   
+    .imgprod{
+        width: 50%;
+        height: 50%;
+        
+        border-radius: 50%;
+        flex: auto;
+        }
+
+
+   
+}
+
+@media screen and (max-width: 450px){
+    .imgQS{
+        width: 100%;
+    }
+}
+
+
+
